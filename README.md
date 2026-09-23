@@ -18,15 +18,17 @@ It brings practical knowledge-management features into Neovim, including Vault d
 
 Designed for people who want an Obsidian-compatible Markdown workflow without turning Neovim into a full Obsidian client.
 
-### [obs-cli](https://github.com/andy-neoaira/obs-cli)
+### [natural-english-skills](https://github.com/andy-neoaira/natural-english-skills)
 
-**In active development**
+Two Agent Skills that help Chinese speakers turn post ideas and replies into natural English while preserving their meaning and tone.
 
-An agent-first, non-interactive CLI for safely operating on local Obsidian vaults.
+They provide a ready-to-use English draft, a Chinese back-translation, and a review from an English reader's perspective.
 
-The project is being developed as a machine-readable execution layer for AI agents, scripts, skills, and editor integrations.
+### [NVimConfig](https://github.com/andy-neoaira/NVimConfig)
 
-Its commands, installation process, and public interfaces may change before the first stable release.
+A modular Neovim configuration for multi-language development, with LSP, completion, debugging, testing, formatting, Git, and AI assistants.
+
+It also includes a lighter `linux_server` branch for editing on low-spec Linux servers.
 
 ### [nvim-filetype](https://github.com/andy-neoaira/nvim-filetype)
 
@@ -37,7 +39,6 @@ It provides a simple filetype picker with configurable pinned filetypes and mini
 ## Currently building
 
 - Improving the Obsidian workflow around `miniobsidian.nvim`
-- Developing and stabilizing `obs-cli`
 - Exploring a new AI Skill project for practical agent workflows
 - Building small, focused products under Neoaira
 
